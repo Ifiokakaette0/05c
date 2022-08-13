@@ -1,0 +1,25 @@
+body{
+  background-image: url(../images/black\ background.jpg); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  font-family:cursive;
+  color: silver;
+  border-style: inset;
+}
+a:link{
+    color: black;
+    text-decoration: none;
+ }
+ a:visited{
+    color: purple;
+ }
+ a:hover{
+    background: #f88396;
+    color: yellow;
+ }
+ .lightroomimages{
+   width: 200px;
+   height: 200px;
+ }

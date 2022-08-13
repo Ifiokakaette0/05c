@@ -1,0 +1,122 @@
+
+header{
+   border-style: inset;
+}
+body{
+   background-image: url(images/3d\ background.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   background-color: rgb(109, 141, 161);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.mylogo{
+   margin-top: 20px;
+   padding: 10px;
+height: 25px;
+width: 100px;
+background-color: white;
+border-radius: 1em;
+float: left;
+}
+h1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.storehome, .homelinks{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 175, 27);
+    font-size: 20px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+aside{
+     font-weight: bolder;
+     font-size: 40px;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ nav{
+   background-color: silver; 
+   display: grid;
+     align-content: left;
+     line-height: 45px;
+     border-style: inset;
+     width: fit-content;
+     float: left;
+     text-align: center;
+   
+     
+  }
+  a:link{
+     color: blue;
+  }
+  a:visited{
+     color: purple;
+  }
+  a:hover{
+     background: #f88396;
+     color: yellow;
+  }
+  .my{
+     color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding-left: 30px;
+ 
+  }
+  .portfolio{
+     color: rgb(34, 31, 219);
+     font-family: cursive;
+     font-size: 50px;
+     padding-left: 20px;
+  }
+  aside{
+     display: grid;
+     text-transform: uppercase;
+     background-color: silver;
+     width: 340px;
+     float: right;
+  }
+  #logotheme{
+   text-align: end;
+   text-decoration: none;
+   margin: 0px;
+   line-height: 0px;
+   font-family: cursive;
+   font-weight: 500;
+  }
+  .introduction{
+   text-align: center;
+   line-height: 50px;
+  }
+  .hello{
+   font-weight: bolder;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color:black;
+   font-size: 20px;
+   
+  }
+  .name{
+   font-size: 40px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif\;
+  }
+  .freelance{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   font-weight: bolder;
+   color: black;
+  }
+  .creative{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 20px;
+   font-weight: bolder;
+   color: blue;
+  }
+  #linkdiv{
+height: 100px;
+  }
+#smallheader{
+   border-style: outset;
+}
