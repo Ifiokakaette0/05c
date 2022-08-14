@@ -1,26 +1,22 @@
 
 header{
-   border-style: inset;
+   
+   padding: 70px;
+   border-style: groove;
+   border-radius: 1em;
 }
+   
+
 body{
-   background-image: url(images/3d\ background.jpg);
-   background-repeat: no-repeat;
-   background-position: center;
-   background-size: cover;
-   height: 100vh;
-   background-color: rgb(109, 141, 161);
+   background-color: grey;
+   
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
-.mylogo{
-   margin-top: 20px;
-   padding: 10px;
-height: 25px;
-width: 100px;
-background-color: white;
-border-radius: 1em;
-float: left;
-}
+
+
+   
+
 h1{
     font-weight: bolder;
     font-size: 30px;
@@ -35,18 +31,21 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 aside{
      font-weight: bolder;
      font-size: 40px;
-     color: white;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-transform: uppercase;
+     width: fit-content;
+     text-align: center;
+   float: right;
+   border-style: inset;
+
+   
     }
  nav{
-   background-color: silver; 
-   display: grid;
-     align-content: left;
-     line-height: 45px;
-     border-style: inset;
-     width: fit-content;
-     float: left;
-     text-align: center;
+   align-content: center;
+   text-align: center;
+   padding-top: 60px;
+   padding-left: 10px;
+   
    
      
   }
@@ -54,7 +53,7 @@ aside{
      color: blue;
   }
   a:visited{
-     color: purple;
+     color: black;
   }
   a:hover{
      background: #f88396;
@@ -72,24 +71,26 @@ aside{
      font-size: 50px;
      padding-left: 20px;
   }
-  aside{
-     display: grid;
-     text-transform: uppercase;
-     background-color: silver;
-     width: 340px;
-     float: right;
+  
+  .logo{
+   height: 70px;
+   width: 70px;
   }
   #logotheme{
-   text-align: end;
-   text-decoration: none;
-   margin: 0px;
-   line-height: 0px;
-   font-family: cursive;
-   font-weight: 500;
+   float: left;
+   width: fit-content;
+   
+
+  }
+  .theme{
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   margin-top: 0px;
   }
   .introduction{
    text-align: center;
-   line-height: 50px;
+   
+
   }
   .hello{
    font-weight: bolder;
@@ -114,9 +115,5 @@ aside{
    font-weight: bolder;
    color: blue;
   }
-  #linkdiv{
-height: 100px;
-  }
-#smallheader{
-   border-style: outset;
-}
+  
+
