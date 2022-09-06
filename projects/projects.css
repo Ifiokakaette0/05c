@@ -3,17 +3,17 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 100vh;
-  font-family:cursive;
+  font-family:'Times New Roman', Times, serif;
   color: silver;
-  border-style: inset;
+
+  margin: 20px;
 }
 a:link{
     color: black;
     text-decoration: none;
  }
  a:visited{
-    color: purple;
+    color: black;
  }
  a:hover{
     background: #f88396;
