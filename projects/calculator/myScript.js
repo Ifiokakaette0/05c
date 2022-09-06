@@ -3,6 +3,9 @@ let result=document.getElementById("inputtext");
 let calculate=(number)=>{
     result.value+=number;
 }
+let percent=(number)=>{
+    result.value/=100;
+}
 let Result=()=>{
     try{
         result.value=eval(result.value)
